@@ -34,11 +34,11 @@
                 </div>
             </div>
         </nav>
-        <h1 class="title">PACHA STORE</h1>
+        <h1 class="title">PACHA MAYORISTA</h1>
     </header>
     <main>
         <section>
-            <table>
+            <table class="main__box contenedor">
                 <tr>
                     <th>Producto</th>
                     <th>Código</th>
@@ -61,14 +61,14 @@
                 </tr>
             </table>
         </section>
-        <form action="envio.php">
-            <fieldset>
+        <form action="envio.php" class="contenedor">
+            <fieldset class="main__box">
                 <legend>Información de pedido</legend>
                 <label for="remeras">Remeras</label> <input type="checkbox" id="remeras" value="remeras">
                 <label for="remeras">Jeans</label> <input type="checkbox" id="jeans" value="jeans">
                 <label for="remeras">Medias</label> <input type="checkbox" id="medias" value="medias">
             </fieldset>
-            <fieldset>
+            <fieldset class="main__box">
                 <legend>Información de envío</legend>
                 <label for="local">Retiro en el showroom</label><input type="radio" id="local" name="envio" value="local">
                 <label for="cadete">Servicio de Cadetería</label><input type="radio" id="cadete" name="envio" value="cadete">

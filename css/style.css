@@ -20,14 +20,21 @@ nav{
 }
 
 body{
-    background-image: url(../img/fondohojas.jpg);
+    background-image: url(../img/fondonubes.png);
+    background-size: cover;
     overflow-x: hidden;
+    display: grid;
 }
 
 figure{
     padding-top: 1em;
     display: flex;
     text-align: center;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
 }
 
 .main__box{
@@ -45,10 +52,13 @@ figure{
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-items: center;
 }
+
 .logo{
     width: 100vw;
 }
+
 .card{
     background-color: #D2E8E3;
     color: #0F6466
@@ -62,3 +72,24 @@ nav ul li a:hover{
     font-style: italic;
     background-color: #D8B08C;
 }
+
+@media screen (min-width: 768px){
+    body{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-row: 10vh 85vh 5vh;
+    }
+    
+    .contenedor{
+        grid-template-columns: 50vw;
+    }
+}
+
+@media screen (min-width: 1024px){
+    body{
+    column-gap: 30px;
+    }
+}
+
+/*FEDE: sinceramente lo de grid .contenedor etc, no lo entiendo ni veo la diferencia.
+o sea en mi caso creo que no tiene utilidad porque siempre tengo solo 1 columna.
+En la view mayorista, estaba barbaro hasta que no se qué toqué y se puso todo en el medio*/
