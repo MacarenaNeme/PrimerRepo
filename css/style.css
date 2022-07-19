@@ -76,9 +76,9 @@ nav ul li a:hover{
 @media screen (min-width: 768px){
     body{
         grid-template-columns: repeat(3, 1fr);
-        grid-template-row: 10vh 85vh 5vh;
-    }
-    
+        grid-template-row: 10vh, 85vh, 5vh;
+}
+
     .contenedor{
         grid-template-columns: 50vw;
     }
