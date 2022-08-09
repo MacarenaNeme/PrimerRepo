@@ -16,7 +16,7 @@ h2{
 
 nav{
     background-color: #D2E8E3;
-    color: #2C3532;
+    color: #83d3b8;
 }
 
 body{
@@ -89,7 +89,3 @@ nav ul li a:hover{
     column-gap: 30px;
     }
 }
-
-/*FEDE: sinceramente lo de grid .contenedor etc, no lo entiendo ni veo la diferencia.
-o sea en mi caso creo que no tiene utilidad porque siempre tengo solo 1 columna.
-En la view mayorista, estaba barbaro hasta que no se qué toqué y se puso todo en el medio*/
